@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import './SearchBox.css';
 import { useState } from 'react';
 
-export default function SearchBox({updateWeatherInfo}) {
+export default function Searchbox({updateWeatherInfo}) {
   const [city, setCity] = useState('');
   const [error, setError] = useState(null);
 
