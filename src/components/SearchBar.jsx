@@ -2,10 +2,10 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 
-import './SearchBox.css';
+import './SearchBar.css';
 import { useState } from 'react';
 
-export default function Searchbox({updateWeatherInfo}) {
+export default function SearchBar({updateWeatherInfo}) {
   const [city, setCity] = useState('');
   const [error, setError] = useState(null);
 
@@ -61,7 +61,7 @@ setCity('');
   };
 
   return (
-    <div className="searchBox">
+    <div className="searchBar">
       <form onSubmit={handleSubmit} >
       <TextField
         onChange={handleChange}

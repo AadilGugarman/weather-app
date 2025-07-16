@@ -1,4 +1,4 @@
-import Searchbox from "./Searchbox"
+import SearchBar from "./SearchBar"
 import InfoBox from "./Infobox"
 import { useEffect, useState } from "react"
 
@@ -41,7 +41,7 @@ const WeatherApp = () => {
 
   return (
     <div>
-      <SearchBox updateWeatherInfo={updateWeatherInfo} />
+      <SearchBar updateWeatherInfo={updateWeatherInfo} />
       <InfoBox info={weatherInfo} />
     </div>
   );

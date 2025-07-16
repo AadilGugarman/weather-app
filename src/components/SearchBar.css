@@ -1,4 +1,4 @@
-.searchBox{
+.searchBar{
  display: flex;
  align-items: center;
   justify-content: center;
@@ -7,7 +7,7 @@
    margin-bottom: 2rem;
  
 }
-.searchBox form {
+.searchBar form {
   display:flex ;
   flex-direction: column;
 }
